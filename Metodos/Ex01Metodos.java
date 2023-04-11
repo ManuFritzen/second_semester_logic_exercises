@@ -1,4 +1,3 @@
-package Metodos;
 /*Escreva um método calculaPotencia(base, exponente) que receba por
 parâmetros dois valores inteiros base e exponente e calcule e retorne
 o resultado de baseexponente para o programa principal.

@@ -10,7 +10,6 @@ invalido!” e retorna -1;
 chamar o método criado e imprimir na tela o resultado da operação.
 */
 
-package Metodos;
 
 import java.util.Scanner;
 

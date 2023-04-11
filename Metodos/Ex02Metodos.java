@@ -7,7 +7,6 @@ par por vez), determina e imprima na tela se o segundo valor em cada
 par é um múltiplo do primeiro. */
 
 
-package Metodos;
 
 import java.util.Scanner;
 
