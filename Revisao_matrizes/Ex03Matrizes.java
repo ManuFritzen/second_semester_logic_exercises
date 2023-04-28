@@ -30,6 +30,17 @@ public class Ex03Matrizes{
                 }
             }
 
+            System.out.println("Matrix M: ");    
+
+            for(int i = 0; i< matrizM.length; i++){
+                for(int j = 0; j<matrizM.length; j++){
+                    System.out.print(matrizM[i][j] + " ");
+                }
+                System.out.println();
+            }
+
+            System.out.println("Vetor V: "); 
+
             for(int i =0; i<vetor.length; i++){
                 System.out.print(vetor[i] + " ");
             }

@@ -19,9 +19,9 @@ public class Ex02Matrizes {
                 if(i<j){
                     matrizB[i][j] = 2*(i+1) + 7*(j+1) - 2;
                 } else if (i==j){
-                    matrizB[i][j]=3*Math.pow((i+1), 3)-1;
+                    matrizB[i][j]=Math.pow((3*(i+1)), 2)-1;
                 } else {
-                    matrizB[i][j]= 4*Math.pow((i+1), 3) + 5*Math.pow((j+1), 2) +1;
+                    matrizB[i][j]= Math.pow((4*(i+1)), 3) + Math.pow((5*(j+1)), 2) +1;
                 }
             }
         }

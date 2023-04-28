@@ -29,14 +29,21 @@ public class Ex05Matrizes{
             System.out.println();
         }
 
+        for(int i = 0; i<matriz.length; i++){
+            for(int j = 0; j<matriz.length; j++){
+                if(i%2==0){
+                    int aux = matriz[i][j];
+                    matriz[i][j] = matriz[i][j+1];
+                    matriz[i][j+1] = aux;
+                }
+                
+            }
+        }
+
         System.out.println("Matriz após a troca:");
         for(int i = 0; i<matriz.length; i++){
             for(int j = 0; j<matriz.length; j++){
-                if(j%2==0){
-                    System.out.print(matriz[i][j+1] + " " );
-                } else {
-                    System.out.print(matriz[i][j-1] + " " );
-                }
+                System.out.print(matriz[i][j] + " " );
             }
             System.out.println();
         }

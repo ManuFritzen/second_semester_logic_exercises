@@ -17,7 +17,7 @@ public class Ex01Matrizes{
                     matrizA[i][j] = in.nextInt();
                     if(matrizA[i][j] > 10){
                         contador++;
-                    };
+                    }
                 }
             }
             System.out.println("Matriz A:");
@@ -30,7 +30,6 @@ public class Ex01Matrizes{
             }
 
             System.out.println("Essa matriz tem " + contador + " elementos maiores que 10");
-        }
-      
+        }      
     }
 }

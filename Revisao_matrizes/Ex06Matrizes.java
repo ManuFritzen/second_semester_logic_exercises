@@ -31,13 +31,13 @@ public class Ex06Matrizes{
             }
         }
 
-        int[][] multi = new int[colunaA][linhaB];
+        int[][] multi = new int[linhaA][colunaB];
         if(colunaA == linhaB){
-            for(int i =0 ; i<colunaB; i++){
-                for(int j =0; j<linhaA; j++){
+            for(int i =0 ; i<linhaA; i++){
+                for(int j =0; j<colunaB; j++){
                     multi[i][j] = 0;
                     int contador=0;
-                    while(contador<linhaA){
+                    while(contador<linhaB){
                         multi[i][j] += matrizA[i][contador]*matrizB[contador][j];
                         contador++;
                     }
@@ -58,8 +58,8 @@ public class Ex06Matrizes{
                 System.out.println();
             }
             System.out.println("MatrizR:");
-            for(int i = 0; i<colunaA; i++){
-                for(int j = 0; j<linhaB; j++){
+            for(int i = 0; i<linhaA; i++){
+                for(int j = 0; j<colunaB; j++){
                     System.out.print(multi[i][j] + " " );
                 }
                 System.out.println();

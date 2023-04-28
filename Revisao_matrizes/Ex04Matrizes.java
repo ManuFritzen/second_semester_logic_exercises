@@ -16,27 +16,27 @@ public class Ex04Matrizes{
 
             int[][] matrizA = new int[l][c];
 
-            for(int i = 0; i<matrizA.length; i++){
-                for(int j = 0; j<matrizA.length; j++){
+            for(int i = 0; i<l; i++){
+                for(int j = 0; j<c; j++){
                     System.out.println("Iforme o valor da matriz na posição linha: " + (i+1) + " coluna: " + (j+1) );
                     matrizA[i][j] = in.nextInt();
                 }
             }
             System.out.println("Matriz A:");
-            for(int i = 0; i<matrizA.length; i++){
-                for(int j = 0; j<matrizA.length; j++){
+            for(int i = 0; i<l; i++){
+                for(int j = 0; j<c; j++){
                     System.out.print(matrizA[i][j] + " " );
                 }
                 System.out.println();
             }
 
-            int[][] matrizT = new int[l][c];
+            int[][] matrizT = new int[c][l];
 
 
             System.out.println("Matriz T:");
 
-            for(int i = 0; i<matrizT.length; i++){
-                for(int j = 0; j<matrizT.length; j++){
+            for(int i = 0; i<c; i++){
+                for(int j = 0; j<l; j++){
                     matrizT[i][j] = matrizA[j][i];
                     System.out.print(matrizT[i][j] + " " );
                 }
