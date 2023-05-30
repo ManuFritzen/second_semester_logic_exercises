@@ -1,4 +1,3 @@
-package MetodosParametros;
 
 /*Escreve um método palindromasMutuas que receba por parâmetros
 duas palavras s1 e s2 e retorne true se as Strings são palíndromas

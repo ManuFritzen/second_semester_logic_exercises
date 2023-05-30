@@ -1,4 +1,3 @@
-package MetodosParametros;
 
 /*Escreve um método void modificaVetor que receba por parâmetros
 um vetor contendo N valores inteiros e modifica da seguinte forma

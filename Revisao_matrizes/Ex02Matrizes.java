@@ -17,11 +17,11 @@ public class Ex02Matrizes {
         for(int i = 0; i<matrizB.length ; i++){
             for(int j = 0 ; j<matrizB.length ; j++){
                 if(i<j){
-                    matrizB[i][j] = 2*(i+1) + 7*(j+1) - 2;
+                    matrizB[i][j] = 2*(i) + 7*(j) - 2;
                 } else if (i==j){
-                    matrizB[i][j]=Math.pow((3*(i+1)), 2)-1;
+                    matrizB[i][j]=Math.pow((3*(i)), 2)-1;
                 } else {
-                    matrizB[i][j]= Math.pow((4*(i+1)), 3) + Math.pow((5*(j+1)), 2) +1;
+                    matrizB[i][j]= Math.pow((4*i), 3) + Math.pow((5*j), 2) +1;
                 }
             }
         }

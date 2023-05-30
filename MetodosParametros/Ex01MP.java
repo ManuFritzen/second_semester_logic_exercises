@@ -1,4 +1,3 @@
-package MetodosParametros;
 
 /*Escreve um método somaElementosVetor que receba por parâmetros um
 vetor contendo N valores inteiros e retorne a soma dos elementos
