@@ -1,0 +1,3 @@
+class NomeInvalidoException extends Exception{
+
+}
